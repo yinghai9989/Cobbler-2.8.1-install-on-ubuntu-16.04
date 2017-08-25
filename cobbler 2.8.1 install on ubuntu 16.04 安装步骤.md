@@ -5,7 +5,7 @@
 cobbler 2.8.1 在ubuntu 16.04.3 系统中安装和配置过程
 
 注：
-* 主机最小配置为CPU 1核，内存2G 否则 cobbler 服务无法启动报错如下：
+* 主机最小配置为CPU 1核，内存2G ;否则cobbler服务无法启动报错如下：
 
  > Failed to restart cobblerd.service: Unit cobblerd.service not found
  
@@ -48,7 +48,9 @@ cobbler 2.8.1 在ubuntu 16.04.3 系统中安装和配置过程
 注：可以使用 openssl passwd -1 -salt 'cobbler' 'cobbler' 生成秘钥
 
 
-> htdigest /etc/cobbler/users.digest "Cobbler" cobbler   #创建web登录的密码 设置的密码cobbler
+> htdigest /etc/cobbler/users.digest "Cobbler" cobbler  
+
+#创建web登录的密码 设置的密码cobbler
 
 
 > mkdir /tftpboot
