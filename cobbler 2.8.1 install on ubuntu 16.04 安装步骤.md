@@ -8,6 +8,8 @@ cobbler 2.8.1 在ubuntu 16.04.3 系统中安装和配置过程
 apt-get update
 
 apt-get install python python2.7 python-django python-netaddr python-yaml python-simplejson python-cheetah python-libvirt python-urlgrabber apache2 libapache2-mod-wsgi make debmirror fence-agents syslinux syslinux-utils
+
+
 #增加安装syslinux syslinux-utils
 
 a2enmod proxy proxy_http 
