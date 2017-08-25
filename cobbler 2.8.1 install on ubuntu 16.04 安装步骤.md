@@ -7,13 +7,13 @@ cobbler 2.8.1 在ubuntu 16.04.3 系统中安装和配置过程
 注：
 * 主机最小配置为CPU 1核，内存2G 否则 cobbler 服务无法启动报错如下：
 
- > *Failed to restart cobblerd.service: Unit cobblerd.service not found
+ > Failed to restart cobblerd.service: Unit cobblerd.service not found
  
  
 
-apt-get update
+> apt-get update
 
-apt-get install python python2.7 python-django python-netaddr python-yaml python-simplejson python-cheetah python-libvirt python-urlgrabber apache2 libapache2-mod-wsgi make debmirror fence-agents syslinux syslinux-utils
+> apt-get install python python2.7 python-django python-netaddr python-yaml python-simplejson python-cheetah python-libvirt python-urlgrabber apache2 libapache2-mod-wsgi make debmirror fence-agents syslinux syslinux-utils
 
 
 #增加安装syslinux syslinux-utils
