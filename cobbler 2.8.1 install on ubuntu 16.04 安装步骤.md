@@ -31,9 +31,9 @@ ln -s /etc/apache2/conf-available/cobbler_web.conf /etc/apache2/conf-enabled/cob
 ln -s /usr/local/lib/python2.7/dist-packages/cobbler /usr/lib/python2.7/dist-packages/ 
 
 编辑 /usr/local/share/cobbler/web/settings.py 增加如下配置：
-SECRET_Key = 'cobbler '         * #设置秘钥
-server = '172.171.9.1'          * #服务器ip
-next_server = '172.171.9.1'     * #服务器ip
+SECRET_Key = 'cobbler '        
+server = '172.171.9.1'       
+next_server = '172.171.9.1'   
 default_password_crypted = '$1$cobbler$M6SE55xZodWc9.vAKLJs6.'
 
 注：可以使用 openssl passwd -1 -salt 'cobbler' 'cobbler' 生成秘钥
