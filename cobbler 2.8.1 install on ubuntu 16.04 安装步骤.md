@@ -62,6 +62,8 @@ cobbler 2.8.1 在ubuntu 16.04.3 系统中安装和配置过程
 
 > systemctl restart apache2
 
+> cobbler signature update
+
 > cobbler get-loaders
 
 > cobbler sync
